@@ -3,14 +3,10 @@ package pasta.executavel;
 public class PrimeiraClasse {
 	public static void main(String[] args) {
 
-		double nota1 = 90;
-		double nota2 = 70;
-		double nota3 = 50;
-		double nota4 = 88;
+		/*char representa um caracter*/
 		
-		double mediaFinal = ((nota1 + nota2 + nota3 + nota4)/4);
+		char pessoaJuridica = 'F';
 		
-		System.out.println("Média das notas = " + mediaFinal);
-		
+		System.out.println(pessoaJuridica);
 	}
 }
