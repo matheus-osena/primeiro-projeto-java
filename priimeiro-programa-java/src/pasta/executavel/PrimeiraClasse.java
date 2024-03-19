@@ -3,10 +3,12 @@ package pasta.executavel;
 public class PrimeiraClasse {
 	public static void main(String[] args) {
 
-		/*char representa um caracter*/
+	
+		/* String [e para textos */
+		String qualquerTexto = "Um texto qualquer";
 		
-		char pessoaJuridica = 'F';
+		System.out.println(qualquerTexto + ", um texto normal");
 		
-		System.out.println(pessoaJuridica);
+		
 	}
 }
