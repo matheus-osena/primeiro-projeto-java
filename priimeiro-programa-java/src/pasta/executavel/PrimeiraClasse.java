@@ -4,10 +4,23 @@ public class PrimeiraClasse {
 	public static void main(String[] args) {
 
 	
-		/* String [e para textos */
-		String qualquerTexto = "Um texto qualquer";
+		int nota1 = 90;
+		int nota2 = 60;
+		int nota3 = 0;
+		int nota4 = 0;
+		int media;
 		
-		System.out.println(qualquerTexto + ", um texto normal");
+		media = (nota1 + nota2 + nota3 + nota4)/4;
+		
+		if(media >= 70) {
+			System.out.println("Aprovado");
+		}
+		if(media >= 40 && media <= 69) {
+			System.out.println("Recuperação");
+		}
+		else {
+			System.out.println("Reprovado");
+		}
 		
 		
 	}
