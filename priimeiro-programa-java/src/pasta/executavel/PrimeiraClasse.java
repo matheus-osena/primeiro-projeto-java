@@ -4,24 +4,21 @@ public class PrimeiraClasse {
 	public static void main(String[] args) {
 
 	
-		int nota1 = 90;
-		int nota2 = 60;
-		int nota3 = 0;
-		int nota4 = 0;
-		int media;
+		/*Switch Case*/
+		int dia = 1;
 		
-		media = (nota1 + nota2 + nota3 + nota4)/4;
-		
-		if(media >= 70) {
-			System.out.println("Aprovado");
+		switch (dia) {
+		case 1:
+			System.out.println("Domingo");
+			break;
+		case 2:
+			System.out.println("Segunda");
+			break;
+		case 3:
+			System.out.println("Terça");
+			break;
+
+		default: System.out.println("Outro dia " + dia);
+			break;
 		}
-		if(media >= 40 && media <= 69) {
-			System.out.println("Recuperação");
-		}
-		else {
-			System.out.println("Reprovado");
-		}
-		
-		
-	}
 }
